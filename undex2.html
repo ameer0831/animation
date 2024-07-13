@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container h1{
+            height: 200px;
+            width: 600px;
+             color: black; 
+            position: relative;
+            animation-delay: 2s;
+            animation-name: example;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+            
+        }
+        @keyframes example{
+            0%{color: blueviolet; ;left: 0; top: 0;}
+            25%{color: red; left: 300px; top: 0px;}
+            50%{color: blue; left: 300px; top: 300px;}
+            75%{color: brown;left: 0px; top: 300px;}
+            100%{color: green; left: 0px; top: 0px;}
+        }
+    </style>
+</head>
+<body>
+    
+        <h1>CSS Animation</h1>
+
+       <p>The animation-iteration-count property can be set to infinite to<br> let the animation run for ever:</p>
+        <div class="container">
+            <h1>cinereous technologies</h1>
+        </div>
+    </div>
+</body>
+</html>
